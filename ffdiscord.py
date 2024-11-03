@@ -4,6 +4,7 @@ from datetime import datetime
 import pytz
 from discord.ext import tasks, commands
 from ffio import getRate
+import os
 
 TOKEN = os.environ['FF_DISCORD_TOKEN']
 USER_ID = '549150218424287232'  # Replace with your Discord user ID
