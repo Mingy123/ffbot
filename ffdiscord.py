@@ -27,7 +27,7 @@ async def check_rate():
     rate_to = 1/rate_to
     if rate_from > 2.3:
         await send_message_from(rate_from)
-    else:
+    else if rate_to < 2.2:
         await send_message_to(rate_to)
     #await user.send(message)
 
